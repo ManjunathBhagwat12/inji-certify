@@ -461,3 +461,4 @@ public class CertifyIssuanceServiceImpl implements VCIssuanceService {
         return vciCacheService.setVCITransaction(parsedAccessToken.getAccessTokenHash(), transaction);
     }
 }
+
